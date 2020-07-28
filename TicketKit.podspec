@@ -11,6 +11,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Tolga Iskender" => "tolgaiskenderr@gmail.com" }
   spec.platform     = :ios, "11.3"
   spec.source       = { :git => "https://github.com/tiskender2/TicketKit.git", :tag => "#{spec.version}" }
-  spec.source_files = "TicketKit/*.{*}"
+  spec.source_files  = "TicketKit/*.{swift}"
+  spec.resources = "TicketKit/*.{xib}"
   spec.swift_version = "4.2"
 end

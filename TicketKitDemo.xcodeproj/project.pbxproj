@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		832A37B124D035EC00739CD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832A37B024D035EC00739CD6 /* AppDelegate.swift */; };
+		832A37B524D035EC00739CD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832A37B424D035EC00739CD6 /* ViewController.swift */; };
+		832A37B824D035EC00739CD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 832A37B624D035EC00739CD6 /* Main.storyboard */; };
+		832A37BA24D035ED00739CD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 832A37B924D035ED00739CD6 /* Assets.xcassets */; };
+		832A37BD24D035ED00739CD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 832A37BB24D035ED00739CD6 /* LaunchScreen.storyboard */; };
+		832A37C724D0360C00739CD6 /* TicketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832A37C524D0360C00739CD6 /* TicketVC.swift */; };
+		832A37C824D0360C00739CD6 /* TicketVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 832A37C624D0360C00739CD6 /* TicketVC.xib */; };
+		832A37CC24D037C300739CD6 /* TicketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832A37CA24D037C300739CD6 /* TicketCell.swift */; };
+		832A37CD24D037C300739CD6 /* TicketCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 832A37CB24D037C300739CD6 /* TicketCell.xib */; };
+		832A37EF24D03C8500739CD6 /* TicketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832A37EE24D03C8500739CD6 /* TicketModel.swift */; };
+		CE6D5272AD40F233E7DB082B /* Pods_TicketKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46A53DAF1A99EE45F0C69DB /* Pods_TicketKitDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		832A37EC24D0390500739CD6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		83150EE69C2DC6C01D6F0BAB /* Pods-TicketKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicketKitDemo.release.xcconfig"; path = "Target Support Files/Pods-TicketKitDemo/Pods-TicketKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		832A37B024D035EC00739CD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		832A37B424D035EC00739CD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		832A37B724D035EC00739CD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		832A37B924D035ED00739CD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		832A37BC24D035ED00739CD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		832A37BE24D035ED00739CD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		832A37C524D0360C00739CD6 /* TicketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketVC.swift; sourceTree = "<group>"; };
+		832A37C624D0360C00739CD6 /* TicketVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TicketVC.xib; sourceTree = "<group>"; };
+		832A37CA24D037C300739CD6 /* TicketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketCell.swift; sourceTree = "<group>"; };
+		832A37CB24D037C300739CD6 /* TicketCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TicketCell.xib; sourceTree = "<group>"; };
+		832A37EE24D03C8500739CD6 /* TicketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketModel.swift; sourceTree = "<group>"; };
+		83CFAA4C24D07B4F00987A5F /* TicketKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicketKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46A53DAF1A99EE45F0C69DB /* Pods_TicketKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TicketKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9C0C6CF341E0C33FB7255DF /* Pods-TicketKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicketKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-TicketKitDemo/Pods-TicketKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		832A37AA24D035EC00739CD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6D5272AD40F233E7DB082B /* Pods_TicketKitDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14835931DA6D82C184363723 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9C0C6CF341E0C33FB7255DF /* Pods-TicketKitDemo.debug.xcconfig */,
+				83150EE69C2DC6C01D6F0BAB /* Pods-TicketKitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5522C390F7437A7BBA3586AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D46A53DAF1A99EE45F0C69DB /* Pods_TicketKitDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832A37A424D035EC00739CD6 = {
+			isa = PBXGroup;
+			children = (
+				832A37AF24D035EC00739CD6 /* TicketKitDemo */,
+				5522C390F7437A7BBA3586AB /* Frameworks */,
+				83CFAA4C24D07B4F00987A5F /* TicketKitDemo.app */,
+				14835931DA6D82C184363723 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		832A37AF24D035EC00739CD6 /* TicketKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				832A37ED24D03C7800739CD6 /* Model */,
+				832A37C424D035FA00739CD6 /* TicketVC */,
+				832A37B024D035EC00739CD6 /* AppDelegate.swift */,
+				832A37B424D035EC00739CD6 /* ViewController.swift */,
+				832A37B624D035EC00739CD6 /* Main.storyboard */,
+				832A37B924D035ED00739CD6 /* Assets.xcassets */,
+				832A37BB24D035ED00739CD6 /* LaunchScreen.storyboard */,
+				832A37BE24D035ED00739CD6 /* Info.plist */,
+			);
+			path = TicketKitDemo;
+			sourceTree = "<group>";
+		};
+		832A37C424D035FA00739CD6 /* TicketVC */ = {
+			isa = PBXGroup;
+			children = (
+				832A37C924D037A400739CD6 /* Cell */,
+				832A37C524D0360C00739CD6 /* TicketVC.swift */,
+				832A37C624D0360C00739CD6 /* TicketVC.xib */,
+			);
+			path = TicketVC;
+			sourceTree = "<group>";
+		};
+		832A37C924D037A400739CD6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				832A37CA24D037C300739CD6 /* TicketCell.swift */,
+				832A37CB24D037C300739CD6 /* TicketCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		832A37ED24D03C7800739CD6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				832A37EE24D03C8500739CD6 /* TicketModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		832A37AC24D035EC00739CD6 /* TicketKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 832A37C124D035ED00739CD6 /* Build configuration list for PBXNativeTarget "TicketKitDemo" */;
+			buildPhases = (
+				646B0364C503E491B1679FB9 /* [CP] Check Pods Manifest.lock */,
+				832A37A924D035EC00739CD6 /* Sources */,
+				832A37AA24D035EC00739CD6 /* Frameworks */,
+				832A37AB24D035EC00739CD6 /* Resources */,
+				832A37EC24D0390500739CD6 /* Embed Frameworks */,
+				CF5D65429D428D779D26C744 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicketKitDemo;
+			productName = TicketKitDemo;
+			productReference = 83CFAA4C24D07B4F00987A5F /* TicketKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		832A37A524D035EC00739CD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Tolga İskender";
+				TargetAttributes = {
+					832A37AC24D035EC00739CD6 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 832A37A824D035EC00739CD6 /* Build configuration list for PBXProject "TicketKitDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 832A37A424D035EC00739CD6;
+			productRefGroup = 832A37A424D035EC00739CD6;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				832A37AC24D035EC00739CD6 /* TicketKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		832A37AB24D035EC00739CD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832A37CD24D037C300739CD6 /* TicketCell.xib in Resources */,
+				832A37BD24D035ED00739CD6 /* LaunchScreen.storyboard in Resources */,
+				832A37BA24D035ED00739CD6 /* Assets.xcassets in Resources */,
+				832A37C824D0360C00739CD6 /* TicketVC.xib in Resources */,
+				832A37B824D035EC00739CD6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		646B0364C503E491B1679FB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TicketKitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF5D65429D428D779D26C744 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TicketKitDemo/Pods-TicketKitDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TicketKitDemo/Pods-TicketKitDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TicketKitDemo/Pods-TicketKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		832A37A924D035EC00739CD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832A37EF24D03C8500739CD6 /* TicketModel.swift in Sources */,
+				832A37C724D0360C00739CD6 /* TicketVC.swift in Sources */,
+				832A37B524D035EC00739CD6 /* ViewController.swift in Sources */,
+				832A37B124D035EC00739CD6 /* AppDelegate.swift in Sources */,
+				832A37CC24D037C300739CD6 /* TicketCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		832A37B624D035EC00739CD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				832A37B724D035EC00739CD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		832A37BB24D035ED00739CD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				832A37BC24D035ED00739CD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		832A37BF24D035ED00739CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		832A37C024D035ED00739CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		832A37C224D035ED00739CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9C0C6CF341E0C33FB7255DF /* Pods-TicketKitDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3AP8SSHDH;
+				INFOPLIST_FILE = TicketKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tolgaiskender.TicketKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		832A37C324D035ED00739CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83150EE69C2DC6C01D6F0BAB /* Pods-TicketKitDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3AP8SSHDH;
+				INFOPLIST_FILE = TicketKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tolgaiskender.TicketKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		832A37A824D035EC00739CD6 /* Build configuration list for PBXProject "TicketKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				832A37BF24D035ED00739CD6 /* Debug */,
+				832A37C024D035ED00739CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		832A37C124D035ED00739CD6 /* Build configuration list for PBXNativeTarget "TicketKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				832A37C224D035ED00739CD6 /* Debug */,
+				832A37C324D035ED00739CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 832A37A524D035EC00739CD6 /* Project object */;
+}

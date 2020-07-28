@@ -95,8 +95,9 @@ public class TicketKit: UIView {
         commonInit()
     }
     private func commonInit() {
-        let bundle = Bundle(identifier:"com.tolgaiskender.TicketKit")
-        bundle?.loadNibNamed("TicketKit", owner: self,options: nil)
+        let bundle = Bundle(for: type(of: self))
+        let nib = UINib(nibName:"TicketKit", bundle: bundle)
+        self.contentView = nib.instantiate(withOwner: self, options: nil).first as? UIView
         addSubview(contentView)
         contentView.frame = self.bounds
         contentView.autoresizingMask = [.flexibleHeight, .flexibleWidth]

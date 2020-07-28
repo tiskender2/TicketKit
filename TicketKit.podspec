@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
 			TicketKit is a framework that using as a MovieTicket or Coupon
                    DESC
-  spec.homepage     = "https://appcoda.com"
+  spec.homepage     = "https://github.com/tiskender2/TicketKit.git"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "Tolga Iskender" => "tolgaiskenderr@gmail.com" }
   spec.platform     = :ios, "11.3"

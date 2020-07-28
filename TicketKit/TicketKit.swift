@@ -85,6 +85,9 @@ public class TicketKit: UIView {
     public var desc: UILabel {
         return descLabel
     }
+    public var purchaseBtn : UIButton {
+        return purchaseButton
+    }
     override init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()

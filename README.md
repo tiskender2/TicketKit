@@ -1,27 +1,27 @@
 # TicketKit
 
 #### TicketKit is a framework that can use as a MovieTicket , Coupon or anyway you like
-![github-small](https://i.ibb.co/mTQpRCW/Screen-Shot-2020-07-28-at-23-07-55.png)
+![github-small](https://i.ibb.co/tKzWdTs/Screen-Shot-2020-07-29-at-09-01-20.png)
 ```
 import TicketKit
 
 ticketView.enrollContentImage.image = UIImage(named: "qr")
 ticketView.showEnrollImage()
 ```
-![github-small](https://i.ibb.co/znjCFFx/Screen-Shot-2020-07-28-at-23-07-16.png )
+![github-small](https://i.ibb.co/pZnR50G/Screen-Shot-2020-07-29-at-09-09-15.png )
 ```
 import TicketKit
 
 ticketView.enrollContentImage.image = UIImage(named: "soldout")
 ticketView.showEnrollImage()
 ```
-![github-small](https://i.ibb.co/wSRGQ9r/Screen-Shot-2020-07-28-at-23-08-09.png )
+![github-small](https://i.ibb.co/4JJ7fYX/Screen-Shot-2020-07-29-at-09-02-58.png )
 ```
 import TicketKit
 
 ticketView.showPurchaseButton() # 'Default'
 ```
-![github-small](https://i.ibb.co/SfqR79b/Screen-Shot-2020-07-28-at-23-27-52.png )
+![github-small](https://i.ibb.co/THgdmkn/Screen-Shot-2020-07-29-at-09-00-16.png )
 ```
 import TicketKit
 
@@ -40,7 +40,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-  pod 'TicketKit', :git => 'https://github.com/tiskender2/TicketKit.git'
+pod 'TicketKit', :git => 'https://github.com/tiskender2/TicketKit.git'
 end
 ```
 Then, run the following terminal command:
@@ -76,4 +76,4 @@ don't forget to `put star ★`
 ## Credits
 TicketKit was originally created by [Tolga İskender](https://www.linkedin.com/in/tolga-iskender/)
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+TicketKit is available under the MIT license. See the LICENSE file for more info.

@@ -26,22 +26,27 @@ class TicketCell: UITableViewCell {
     func customize(ticketDetail:TicketModel) {
         ticketView.contentImage.image = UIImage(named: ticketDetail.movieImage)
         ticketView.contentTitle.text = ticketDetail.movieName
+        ticketView.durationTitle.text = "DURATION"
         ticketView.duration.text = ticketDetail.duration
         ticketView.genre.text = ticketDetail.genre
+        ticketView.genreTitle.text = "GENRE"
         ticketView.rating.text = ticketDetail.rating
+        ticketView.ratingTitle.text = "RATING"
         ticketView.price.text = ticketDetail.price
+        ticketView.priceTitle.text = "PRICE"
         ticketView.subTitle.text = ticketDetail.movieStoryLine
         ticketView.desc.text = ticketDetail.movieDesc
+        ticketView.purchaseBtn.setTitle("BUY NOW", for: .normal)
         if ticketDetail.movieName == "JOKER" {
             ticketView.enrollContentImage.image = UIImage(named: "soldout")
             ticketView.showEnrollImage()
-            ticketView.hideDetailView()
+            //ticketView.hideDetailView()
         } else if ticketDetail.movieName == "INCEPTION" {
             ticketView.enrollContentImage.image = UIImage(named: "qr")
             ticketView.showEnrollImage()
         } else {
             ticketView.showPurchaseButton()
-            ticketView.purchaseButtonTitle
+            
         }
     }
     override func draw(_ rect: CGRect) {

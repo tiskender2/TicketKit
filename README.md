@@ -1,6 +1,6 @@
 # TicketKit
 
-#### TicketKit is a framework that can use as a MovieTicket , Coupon or anyway you like
+#### TicketKit is a framework that can use as a Ticket , Coupon or anyway you like
 ![github-small](https://i.ibb.co/tKzWdTs/Screen-Shot-2020-07-29-at-09-01-20.png)
 ```
 import TicketKit

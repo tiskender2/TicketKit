@@ -2,27 +2,27 @@
 
 #### TicketKit is a framework that can use as a Ticket, Coupon or any way you like
 ![github-small](https://i.ibb.co/tKzWdTs/Screen-Shot-2020-07-29-at-09-01-20.png)
-```
+```kotlin
 import TicketKit
 
 ticketView.enrollContentImage.image = UIImage(named: "qr")
 ticketView.showEnrollImage()
 ```
 ![github-small](https://i.ibb.co/pZnR50G/Screen-Shot-2020-07-29-at-09-09-15.png )
-```
+```kotlin
 import TicketKit
 
 ticketView.enrollContentImage.image = UIImage(named: "soldout")
 ticketView.showEnrollImage()
 ```
 ![github-small](https://i.ibb.co/4JJ7fYX/Screen-Shot-2020-07-29-at-09-02-58.png )
-```
+```kotlin
 import TicketKit
 
 ticketView.showPurchaseButton() # 'Default'
 ```
 ![github-small](https://i.ibb.co/THgdmkn/Screen-Shot-2020-07-29-at-09-00-16.png )
-```
+```kotlin
 import TicketKit
 
 ticketView.hideDetailView()
@@ -51,7 +51,7 @@ pod install
 
 Drag `TicketKit.swift` from the `source` folder into your Xcode project.
 ## Usage
-```
+```kotlin
 import TicketKit
 @IBOutlet weak var ticketView: TicketKit!
 
@@ -65,7 +65,7 @@ ticketView.subTitle.text = "StoryLine"
 ticketView.desc.text = "desc"
 ```
 If you want to clipped view add below code in `override func draw(_ rect: CGRect)`
-```
+```kotlin
 ticketView.addClips(to: .topView, corner: [.bottom,.top]) # default no clip 
 ```
 ## Apps using this framework

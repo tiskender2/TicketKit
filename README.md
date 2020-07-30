@@ -63,6 +63,10 @@ ticketView.rating.text = "8.5"
 ticketView.price.text = "$30"
 ticketView.subTitle.text = "StoryLine"
 ticketView.desc.text = "desc"
+
+ticketView.durationTitle.text = "DURATION"
+ticketView.genreTitle.text = "GENRE"
+
 // to change background Color
 ticketView.topView.backgroundColor = .blue
 ticketView.bottomView.backgroundColor = .blue

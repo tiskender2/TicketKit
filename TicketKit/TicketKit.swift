@@ -88,6 +88,15 @@ public class TicketKit: UIView {
     public var purchaseBtn : UIButton {
         return purchaseButton
     }
+    public var topView : UIView {
+        return ticketTopView
+    }
+    public var bottomView : UIView {
+        return ticketBottomView
+    }
+    public var strokeView : UIView {
+        return lineView
+    }
     override init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()
@@ -138,7 +147,7 @@ public class TicketKit: UIView {
         self.desc.text = desc
         
     }
-    public func setupDashedLine(lineDashPattern:[NSNumber], lineWidth:CGFloat, lineDashPhase:CGFloat, fillColor:CGColor, storeColor:CGColor) {
+    public func setupDashedLine(lineDashPattern:[NSNumber]? = [8,8], lineWidth:CGFloat = 10, lineDashPhase:CGFloat = 4, fillColor:CGColor? = UIColor.white.cgColor, storeColor:CGColor? = UIColor.lightGray.cgColor) {
         lineView.strokeLine(lineDashPattern: lineDashPattern, lineWidth: lineWidth, lineDashPhase: lineDashPhase, fillColor: fillColor, storeColor: storeColor)
     }
     

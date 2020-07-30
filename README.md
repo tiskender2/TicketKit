@@ -74,7 +74,7 @@ ticketView.bottomView.backgroundColor = .blue
 If you want to clipped view add below code in `override func draw(_ rect: CGRect)` or  `override func viewDidAppear(_ animated: Bool) ` 
 ```swift
 ticketView.addClips(to: .topView, corner: [.bottom,.top]) // default no clip
-ticketView.setupDashedLine(fillColor: UIColor.blue.cgColor) // to change dashed line color default is white
+ticketView.setupDashedLine(fillColor: UIColor.blue.cgColor) // to change dashed line color, default is white
 ```
 ## Apps using this framework
 

@@ -63,10 +63,14 @@ ticketView.rating.text = "8.5"
 ticketView.price.text = "$30"
 ticketView.subTitle.text = "StoryLine"
 ticketView.desc.text = "desc"
+// to change background Color
+ticketView.topView.backgroundColor = .blue
+ticketView.bottomView.backgroundColor = .blue
 ```
-If you want to clipped view add below code in `override func draw(_ rect: CGRect)`
+If you want to clipped view add below code in `override func draw(_ rect: CGRect)` or  `override func viewDidAppear(_ animated: Bool) ` 
 ```swift
 ticketView.addClips(to: .topView, corner: [.bottom,.top]) # "default no clip"
+ticketView.setupDashedLine(fillColor: UIColor.blue.cgColor) # "to change dashed line color default is white"
 ```
 ## Apps using this framework
 
